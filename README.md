@@ -69,7 +69,7 @@ reason; see [KIRO.md](KIRO.md).
 ## Development
 
 ```console
-node --test          # 14 tests, no network, no git required for the unit tests
+node --test          # 12 tests, no network, no git required for the unit tests
 node src/cli.mjs scan demo --now 2026-11-26T00:00:00Z
 ```
 
