@@ -77,6 +77,11 @@ submission:
 Kiro's review of the first draft produced five concrete findings that were applied or rejected with a
 reason; see [KIRO.md](KIRO.md).
 
+## Build log
+
+A longer write-up of how this was built with Kiro — the steering files, the hook that caught the first
+bug, and the review that changed four things: https://bounty-desk-peer.neocities.org/blog/kiroween
+
 ## Development
 
 ```console
