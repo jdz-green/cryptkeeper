@@ -1,5 +1,7 @@
 # Cryptkeeper
 
+[![test](https://github.com/jdz-green/cryptkeeper/actions/workflows/test.yml/badge.svg)](https://github.com/jdz-green/cryptkeeper/actions/workflows/test.yml)
+
 Find the projects in your graveyard that are worth reviving, score how dead they are, and hand an
 agent a brief it can act on.
 
