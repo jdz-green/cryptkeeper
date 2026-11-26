@@ -1,0 +1,10 @@
+{
+  "name": "cryptkeeper",
+  "version": "0.1.0",
+  "description": "Find abandoned projects worth reviving, score how dead they are, and hand an agent a brief it can act on.",
+  "type": "module",
+  "bin": { "cryptkeeper": "./src/cli.mjs" },
+  "scripts": { "test": "node --test" },
+  "license": "MIT",
+  "engines": { "node": ">=22" }
+}

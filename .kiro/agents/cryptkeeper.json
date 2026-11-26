@@ -1,0 +1,9 @@
+{
+  "name": "cryptkeeper",
+  "description": "Builds Cryptkeeper against the spec in .kiro/specs/cryptkeeper. Runs the test suite after every write so a broken module is caught immediately.",
+  "hooks": {
+    "postToolUse": [
+      { "matcher": "write", "command": "node --test" }
+    ]
+  }
+}
