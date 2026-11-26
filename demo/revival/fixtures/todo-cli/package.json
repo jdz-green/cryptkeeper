@@ -1,0 +1,11 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "todo": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

@@ -55,6 +55,12 @@ Exit codes: `0` ok, `1` usage error, `2` nothing found.
 - **Every point explained.** The weights live in one table; the report prints each contribution.
 - **Bounded work.** 256 KiB per file, 200 files per project, so scanning a monorepo cannot hang.
 
+## Resurrection, demonstrated
+
+The Kiroween category is Resurrection, so the repository contains one: a project scored **100/100**
+was revived with Kiro CLI and now scores **10/100**. The before/after, the exact prompt and the
+resulting code are in [demo/revival/README.md](demo/revival/README.md).
+
 ## Built with Kiro
 
 This project is a Kiroween 2026 entry, built with Kiro CLI. The `.kiro/` directory is part of the
