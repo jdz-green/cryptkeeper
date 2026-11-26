@@ -26,6 +26,8 @@ deciding *which* one deserves the week. Cryptkeeper turns that decision into a n
 point attributed to a signal you can check, and then writes the smallest credible revival step so an
 agent (or you) can start without re-reading three years of commits.
 
+![The graveyard report](demo/graveyard.png)
+
 ## What it measures
 
 | signal | points | why it matters |
