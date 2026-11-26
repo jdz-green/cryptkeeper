@@ -1,0 +1,23 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Unit tests
+        run: node --test test/
+      - name: Demo scan and report
+        run: |
+          bash demo/setup.sh
+          node src/cli.mjs scan demo/repos --now 2026-11-26T00:00:00Z
+          node src/cli.mjs brief demo/repos --project tombstone-todo
+          node src/cli.mjs report demo/repos --out /tmp/graveyard.html
+          test -s /tmp/graveyard.html
