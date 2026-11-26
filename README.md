@@ -39,6 +39,9 @@ agent (or you) can start without re-reading three years of commits.
 
 0–19 alive · 20–44 fading · 45–69 on the slab · 70+ tombstone.
 
+The scanner is language-agnostic: the demo includes a 2023 Python exporter (72/100) next to the
+JavaScript CLI (100/100), a fading API (55/100) and a live tool (10/100).
+
 ## Commands
 
 - `cryptkeeper scan <dir> [--json]` — a table sorted by death score, or the full records as JSON.
@@ -81,7 +84,7 @@ node --test          # 12 tests, no network, no git required for the unit tests
 node src/cli.mjs scan demo --now 2026-11-26T00:00:00Z
 ```
 
-`demo/setup.sh` recreates three synthetic projects (a 900-day-old tombstone, a fading API, a live tool) so the
+`demo/setup.sh` recreates four synthetic projects (a 900-day-old tombstone, a fading API, a live tool) so the
 report can be reproduced exactly.
 
 License: MIT.

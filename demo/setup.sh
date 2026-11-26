@@ -15,6 +15,7 @@ make_repo() {
 make_repo tombstone-todo "2024-06-01T10:00:00"
 make_repo fading-api     "2026-05-01T10:00:00"
 make_repo alive-tool     "2026-11-24T10:00:00"
+make_repo dead-python    "2023-08-14T10:00:00"
 make_repo_into() {
   local src="$1" dest="$2" spec="$3"
   rm -rf "$dest"
